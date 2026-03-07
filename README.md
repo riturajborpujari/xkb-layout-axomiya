@@ -2,8 +2,9 @@
 Write Assamese characters the standard way
 
 ## Description
-Extends XKB layout file `in` to create variant `asm`. Variant name provided as
-`Assamese (India)` to match other Indian languages in the group.
+Extends XKB layout file for Indian scripts to add Assamese. Variant name
+provided as `Assamese (India)` with code `in(asm)` to match other Indian
+languages in the group.
 
 Since, majority of the characters are exactly same as `in(ben)` this layout
 variant just includes it directly.
@@ -25,6 +26,8 @@ export XKB_CONFIG_ROOT=$HOME/.config/xkb
 
 After sourcing the updated config with `source $HOME/.bashrc` XKB can be
 reloaded and the layout is ready to use.
+
+Configure keyboard layout as `in(asm)` to start typing Assamese.
 
 ## References
 Unicode Symbol codes for Assamese Characters
