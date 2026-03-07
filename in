@@ -1,0 +1,14 @@
+// Assamese is almost like Bangla except
+// - ৰ (U09F0) replaces র (U09B0)
+// - ৱ (U09F1) added
+// - ৎ (U09CE) added
+
+partial alphanumeric_keys
+xkb_symbols "asm" {
+	include "in(ben)"
+    name[Group1]= "Assamese (India)";
+
+    key <AC07> {[  U09F0,  U09DD ]};
+    key <AB01> {[  U09CE,      Z ]};
+    key <AB05> {[  U09F1,  U09AC ]};
+};
