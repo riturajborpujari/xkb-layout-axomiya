@@ -1,0 +1,67 @@
+partial alphanumeric_keys
+xkb_symbols "axm" {
+    name[Group1]= "Axomiya";
+
+    // Mainly digits:
+    key <AE01> {[  U09E7         ]};
+    key <AE02> {[  U09E8         ]};
+    key <AE03> {[  U09E9         ]};
+    key <AE04> {[  U09EA         ]};
+    key <AE05> {[  U09EB         ]};
+    key <AE06> {[  U09EC         ]};
+    key <AE07> {[  U09ED         ]};
+    key <AE08> {[  U09EE         ]};
+    key <AE09> {[  U09EF,  parenleft ]};
+    key <AE10> {[  U09E6, parenright ]};
+    key <AE11> {[  minus,  U0983 ]};
+    key <AE12> {[  U098B,  U09C3 ]};
+
+    // Mainly long vowels:
+    key <AD01> {[  U09CC,  U0994 ]};
+    key <AD02> {[  U09C8,  U0990 ]};
+    key <AD03> {[  U09BE,  U0986 ]};
+    key <AD04> {[  U09C0,  U0988 ]};
+    key <AD05> {[  U09C2,  U098A ]};
+
+    // Mainly voiced consonants:
+    key <AD06> {[  U09AC,  U09AD ]};
+    key <AD07> {[  U09B9,  U0999 ]};
+    key <AD08> {[  U0997,  U0998 ]};
+    key <AD09> {[  U09A6,  U09A7 ]};
+    key <AD10> {[  U099C,  U099D ]};
+    key <AD11> {[  U09A1,  U09A2 ]};
+    key <AD12> {[  U09BC,  U099E ]};
+
+    // Mainly short vowels:
+    key <AC01> {[  U09CB,  U0993 ]};
+    key <AC02> {[  U09C7,  U098F ]};
+    key <AC03> {[  U09CD,  U0985 ]};
+    key <AC04> {[  U09BF,  U0987 ]};
+    key <AC05> {[  U09C1,  U0989 ]};
+
+    // Mainly unvoiced consonants:
+    key <AC06> {[  U09AA,  U09AB ]};
+    // U09F0 (ৰ)
+    key <AC07> {[  U09F0,  U09DD ]};
+    key <AC08> {[  U0995,  U0996 ]};
+    key <AC09> {[  U09A4,  U09A5 ]};
+    key <AC10> {[  U099A,  U099B ]};
+    key <AC11> {[  U099F,  U09A0 ]};
+    key <BKSL> {[ backslash, bar ]};
+
+    // U09CE(ৎ)
+    key <AB01> {[  U09CE,      Z ]};
+    key <AB02> {[  U0982,  U0981 ]};
+    key <AB03> {[  U09AE,  U09A3 ]};
+    key <AB04> {[  U09A8,  U09A8 ]};
+    // U09F1 (ৱ)
+    key <AB05> {[  U09F1,  U09AC ]};
+    key <AB06> {[  U09B2,  U09B2 ]};
+    key <AB07> {[  U09B8,  U09B6 ]};
+    key <AB08> {[  comma,  U09B7 ]};
+    key <AB09> {[ period,  U0964 ]};
+    key <AB10> {[  U09DF,  U09AF ]};
+
+    include "rupeesign(4)"
+    include "level3(ralt_switch)"
+};
